@@ -1,0 +1,10 @@
+12,Smith,Seth,12.50,
+10,Jones,Adam,5.50,
+19,Davis,Chris,10.00,
+13,Machado,Manny,5.50,
+02,Hardy,J.J.,17.25,
+06,Schoop,Jon,23.80,
+23,Rickard,Joey,35.00,
+43,Walker,Chris,13.00,
+45,Trumbo,Mark,11.00,
+36,Joseph,Caleb,10.00

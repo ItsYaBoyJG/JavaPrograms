@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "OOP/composition/src",
+        "AdventureGame/AdventureGame/src",
+        "OOP/encapsulation/src"
+    ]
+}
