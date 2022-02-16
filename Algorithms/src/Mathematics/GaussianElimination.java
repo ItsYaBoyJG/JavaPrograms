@@ -8,8 +8,6 @@ public class GaussianElimination {
     // Solves a system of linear equations as an augmented matrix
     // with the rightmost column containing the constants. The answers
     // will be stored on the rightmost column after the algorithm is done.
-    // NOTE: make sure your matrix is consistent and does not have multiple
-    // solutions when you solve the system if you want a unique valid answer.
     // Time Complexity: O(r²c)
     static void solve(double[][] augmentedMatrix) {
         int nRows = augmentedMatrix.length, nCols = augmentedMatrix[0].length, lead = 0;
@@ -61,15 +59,7 @@ public class GaussianElimination {
         return nCols - 1 > arr.length - nEmptyRows;
     }
 
-    public static void main(String[] args) {
-
-        // Suppose we want to solve the following system for
-        // the variables x, y, z:
-        //
-        // 2x - 3y + 5z = 10
-        // x  + 2y - z  = 18
-        // 6x -  y + 0  = 12
-        // Then we would setup the following augment matrix:
+    public static void main(String[] args)
 
         double[][] augmentedMatrix = {
                 {2, -3, 5, 10},
