@@ -173,4 +173,62 @@ public class EmployeePayCalculator {
             });
         }
     }
-}
+} /*
+panel.add(vehicleMakeAndModelLabel);
+        vehicleMakeAndModelLabel.setText("Enter Vehicle Make and Model:");
+        panel.add(vehicleMakeAndModelTextField);
+
+
+        panel.add(vehicleYearLabel);
+        vehicleYearLabel.setText("Enter Vehicle Year:");
+        panel.add(vehicleYearTextField);
+
+        panel.add(purchasePriceLabel);
+        purchasePriceLabel.setText("Enter Purchase Price: ");
+        panel.add(purchasePriceTextField);
+
+        panel.add(vehicleLifeExpectancyLabel);
+        vehicleLifeExpectancyLabel.setText("Enter Life Expectancy:");
+        panel.add(vehicleLifeExpectancyTextField);
+
+        panel.add(annualMilesDrivenLabel);
+        annualMilesDrivenLabel.setText("Enter Annual Miles Driven");
+        panel.add(annualMilesDrivenTextField);
+
+        panel.add(annualFuelConsumptionLabel);
+        annualFuelConsumptionLabel.setText("Enter Annual Fuel Consumption: ");
+        panel.add(annualFuelConsumptionTextField);
+
+        panel.add(annualFuelCostLabel);
+        annualFuelCostLabel.setText("Enter Fuel Price Per Gallon: ");
+        panel.add(annualFuelCostTextField);
+
+        panel.add(fuelEfficiencyLabel);
+        fuelEfficiencyLabel.setText("Enter The Fuel Efficiency: ");
+        panel.add(fuelEfficiencyTextField);
+
+        panel.add(lifetimeOperatingCostLabel);
+        lifetimeOperatingCostLabel.setText("The lifetime operating cost is:");
+        panel.add(lifetimeOperatingCostTextField);
+
+        panel.add(totalVehicleOwnershipCostLabel);
+        totalVehicleOwnershipCostLabel.setText("The total vehicle ownership cost is:");
+        panel.add(totalVehicleOwnershipCostTextField);
+
+        // creates frame
+        JFrame viewFrame = new JFrame("Vehicle Cost Calculator");
+        viewFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        viewFrame.setSize(400,400);
+
+        // creates panel
+        JPanel panel = new JPanel();
+        //panel.setLayout(null);
+
+        // add components to panel
+        JLabel label = new JLabel("FUCK");
+        panel.add(label);
+
+        viewFrame.add(panel);
+        viewFrame.setContentPane(panel);
+//viewFrame.pack();
+*/
